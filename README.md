@@ -1,70 +1,59 @@
-# CRUD em Node.js
+# Node-Crud
 
-Back-end de uma aplicação **CRUD básica** desenvolvido com **Node.js** e **NeonDB (PostgreSQL)**.  
-O projeto tem como foco a implementação de uma **API REST simples**, aplicando conceitos fundamentais de desenvolvimento back-end.
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
-## 🎯 Objetivo do projeto
+This project is a back-end application that implements a simple CRUD API, built using **Node.js** and **Neon (PostgreSQL)**.
 
-Construir uma API organizada e funcional para realizar operações básicas de **Create, Read, Update e Delete (CRUD)**, consolidando os fundamentos de back-end, como:
+The application focuses on implementing fundamental back-end concepts, including RESTful routing, database integration, and basic request handling.
 
-- Arquitetura REST
-- Persistência de dados em banco relacional
-- Organização e estruturação de código
-- Comunicação via API HTTP
+## Table of Contents
 
-## ⚙️ Funcionalidades
+- [Technologies](#technologies)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [License](#license)
 
-- Criação de registros
-- Listagem de registros
-- Atualização de registros
-- Remoção de registros
-- Comunicação via API REST
+## Technologies
 
-## 🛠️ Tecnologias e ferramentas
+- NodeJS
+- Express
+- NeonDB
 
-- **Node.js**
-- **Express**
-- **NeonDB (PostgreSQL)**
-- **dotenv**
+## Prerequisites
 
-## 📋 Pré-requisitos
+- [NodeJS](https://nodejs.org/en)
 
-Para executar o projeto localmente, é necessário ter instalado:
+## Installation
 
-- **Node.js**
-- Conta no **NeonDB** ou outro banco de dados PostgreSQL compatível
+1. Clone the repository:
 
----
-
-## ▶️ Execução do projeto
-
-### 1. Clone o repositório
 ```bash
 git clone https://github.com/Amannu1/node-crud
-2. Acesse o diretório do projeto
+```
+
+2. Access project directory:
+```bash
 cd node-crud
-3. Instale as dependências
+```
+
+3. Install node dependencies:
+```bash
 npm install
-4. Configure as variáveis de ambiente
-Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
+```
 
-DATABASE_URL="postgresql://usuario:senha@host/database"
-DATABASE_URL: string de conexão com o banco de dados PostgreSQL (NeonDB)
+4. Configure environment settings:
 
-5. Inicie a aplicação
+    Create a .env with the content below:
+    
+    - DATABASE_URL="postgresql://user:password@host/database"
+    - DATABASE_URL: Postgres connection string (NeonDB)
+
+5. Start the application:
+```bash
 npm start
-A API será iniciada e ficará disponível para requisições HTTP.
+```
 
-🧠 Principais aprendizados
-Desenvolvimento de APIs REST com Node.js e Express
+## License
 
-Integração com banco de dados relacional (PostgreSQL)
-
-Implementação de operações CRUD
-
-Organização básica de projetos back-end
-
-Uso de variáveis de ambiente para configuração segura
-
-📌 Observações
-Este projeto possui finalidade educacional e foi desenvolvido para prática dos fundamentos de desenvolvimento back-end.
+MIT
